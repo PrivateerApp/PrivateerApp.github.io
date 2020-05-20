@@ -9,6 +9,59 @@
   background: linear-gradient(#c1d3ff, #8eadfa) !important;
 }
 
+a#learn-more-btn {
+  font-weight: bold !important;
+  font-family: 'Roboto', sans-serif;
+  background-color: white !important;
+  color: #24648C !important;
+}
+
+a#learn-more-btn:hover, a#learn-more-btn:focus, a#learn-more-btn:active, a#learn-more-btn.active {
+  color: white !important;
+  background-color: #78BCDB !important;
+}
+
+#site-title {
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 800 !important;
+}
+
+header.masthead {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: white;
+  /* background: url("../img/bg-pattern.png"), #7b4397;
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430); */
+  background: url("../img/yellowbackground.png");
+  background-size: cover !important;
+}
+
+/* Team styling */
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: #555;
+}
+
+#team-header {
+  padding-bottom: 1em;
+}
+
 html,
 body {
   width: 100%;
@@ -62,41 +115,6 @@ section {
 
 section h2 {
   font-size: 50px;
-}
-
-header.masthead {
-  position: relative;
-  width: 100%;
-  padding-top: 150px;
-  padding-bottom: 100px;
-  color: white;
-  /* background: url("../img/bg-pattern.png"), #7b4397;
-    background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430); */
-  background: url("../img/yellowbackground.png");
-}
-
-/* Team styling */
-.social-link {
-  width: 30px;
-  height: 30px;
-  border: 1px solid #ddd;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #666;
-  border-radius: 50%;
-  transition: all 0.3s;
-  font-size: 0.9rem;
-}
-
-.social-link:hover, .social-link:focus {
-  background: #ddd;
-  text-decoration: none;
-  color: #555;
-}
-
-#team-header {
-  padding-bottom: 1em;
 }
 
 #mainNav {
@@ -448,7 +466,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn-outline {
   color: white;
-  border: 1px solid;
+  border: 2px solid;
   border-color: white;
 }
 
